@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include=".editorconfig" Pack="true" PackagePath="\content\Rules" />
+    <None Include="ElementLogic.EditorConfig.props" Pack="true" PackagePath="\build" />
+  </ItemGroup>
+  
+</Project>
